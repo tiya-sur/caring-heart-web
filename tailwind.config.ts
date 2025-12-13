@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ["Playfair Display", "serif"],
+        body: ["DM Sans", "sans-serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -56,6 +60,18 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        hope: {
+          DEFAULT: "hsl(var(--hope))",
+          light: "hsl(var(--hope-light))",
+        },
+        compassion: {
+          DEFAULT: "hsl(var(--compassion))",
+          light: "hsl(var(--compassion-light))",
+        },
+        awareness: {
+          DEFAULT: "hsl(var(--awareness))",
+          light: "hsl(var(--awareness-light))",
         },
       },
       borderRadius: {
