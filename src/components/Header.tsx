@@ -23,6 +23,12 @@ const Header = () => {
             >
               Contact
             </a>
+            <a
+              href="/visualizer"
+              className="text-muted-foreground hover:text-primary transition-colors font-medium"
+            >
+              Visualizer
+            </a>
           </nav>
 
           <a
